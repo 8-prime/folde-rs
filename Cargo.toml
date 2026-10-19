@@ -1,0 +1,13 @@
+[package]
+name = "folde-rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+async-channel = "2.5.0"
+chrono = "0.4.45"
+gpui-kit = "0.7.1"
+kamadak-exif = "0.6.1"
+sha2 = "0.10.9"
+walkdir = "2.5.0"
+tempfile = "3"
