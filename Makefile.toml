@@ -1,0 +1,11 @@
+[config]
+default_to_workspace = false
+
+[tasks.build-folde-rs]
+command = "cargo"
+args = ["build", "--release"]
+
+[tasks.create-cli-installer]
+dependencies = ["build-folde-rs"]
+command = "simp-cli.exe"
+args = ["-o", "./folde-rs-installer.exe"]

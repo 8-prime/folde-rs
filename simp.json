@@ -1,0 +1,20 @@
+{
+  "core_config": {
+    "name": "folde-rs",
+    "version": "1.0.0",
+    "description": "The simp installer cli.",
+    "eula": null,
+    "main_executable": "folde-rs.exe",
+    "auto_start": false,
+    "desktop_icon": false,
+    "start_menu": true,
+    "add_to_path": false,
+    "path_scope": "user",
+    "target": "AppData"
+  },
+  "components": [
+    {
+      "component_path": "./target/release/folde-rs.exe"
+    }
+  ]
+}
